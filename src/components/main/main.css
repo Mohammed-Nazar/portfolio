@@ -1,0 +1,58 @@
+.contentMain {
+    padding: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    background-color: #003047;
+}
+
+.contentMain img{
+    position: relative;
+    margin-top: 60px;
+}
+
+
+.mainText p{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.mainText-t {
+    font-size: 2.5rem;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+
+.btn-h {
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    border: 1px solid  rgb(215, 215, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btn-h:hover{
+    background-color: rgb(215, 215, 0);
+    animation: btnHover 0.5s forwards;
+}
+
+
+@keyframes btnHover {
+    0%{
+        background-color: #003047;
+        color: white;
+    }
+    100%{
+        background-color: rgb(215, 215, 0);
+        color: #003047;
+    }
+}
+
