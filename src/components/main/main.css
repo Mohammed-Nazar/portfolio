@@ -56,3 +56,16 @@
     }
 }
 
+
+
+@media only screen and (max-width: 800px) {
+    .contentMain img {
+      display: none;
+    }
+    .mainText p{
+        width: 80% !important;
+    }
+    .contentMain {
+        padding-bottom: 20%;
+    }
+  }

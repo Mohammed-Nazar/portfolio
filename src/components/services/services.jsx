@@ -6,7 +6,7 @@ import {faTelegramPlane} from "@fortawesome/free-brands-svg-icons"
 export default function Services() {
   return (
     <>
-      <div className="services">
+      <div id="services" className="services">
         <div>
           <h1>My <span>Services</span></h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

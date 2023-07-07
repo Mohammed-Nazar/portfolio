@@ -4,8 +4,8 @@ import myPic from "../../assets/my.jpeg";
 export default function About() {
   return (
     <>
-      <div className="about-sec">
-        <img width="30%" src={myPic} alt="" />
+      <div id="about" className="about-sec">
+        <img src={myPic} alt="" />
         <div>
         <h2>About me</h2>
         <p>

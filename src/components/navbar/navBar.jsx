@@ -1,4 +1,6 @@
 import "./navBar.css";
+import { FooterLinks } from "../../assets/base";
+
 
 export default function NavBar() {
   return (
@@ -12,20 +14,20 @@ export default function NavBar() {
         </a>
         <ul>
           <li>
-            <a href="">Home</a>
+            <a href="#main">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
 
           <li>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="">Github</a>
+            <a href={FooterLinks.github} target="_blank">Github</a>
           </li>
         </ul>
       </nav>

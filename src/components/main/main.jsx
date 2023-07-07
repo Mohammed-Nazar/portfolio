@@ -1,11 +1,12 @@
 import Mypic from "../../assets/new.png";
 import "./main.css";
 import Typewriter from "typewriter-effect";
+import { FooterLinks } from "../../assets/base";
 
 export default function Main() {
   return (
     <>
-      <div className="contentMain">
+      <div id="main" className="contentMain">
         <img width="25%" src={Mypic} alt="" />
         <div className="mainText">
         <div className="mainText-t">
@@ -26,7 +27,7 @@ export default function Main() {
             recusandae, tempora obcaecati a repellat assumenda atque? Nemo iste
             ipsum dolorem eveniet fuga.
           </p>
-          <a href="" className="btn-h">Hire me</a>
+          <a href={FooterLinks.linkedin} target="_blank" className="btn-h">Hire me</a>
         </div>
       </div>
     </>

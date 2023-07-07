@@ -38,7 +38,7 @@ export default function Contact(){
     
     return (
         <>
-        <div className="contact">
+        <div id="contact" className="contact">
             <h1><FontAwesomeIcon icon={faContactBook}/> Contact Me </h1>
 <div className="contact-form">
     <div>
