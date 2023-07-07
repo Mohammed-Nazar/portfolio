@@ -1,0 +1,40 @@
+.services {
+    padding: 4rem;
+    background-color: #003047;
+    text-align: center;
+}
+
+.services div h1 {
+    margin-bottom: 10px;
+}
+
+.services div h1 span {
+    color: rgb(215, 215, 0);
+
+}
+
+.services div p {
+    margin-bottom: 2rem;
+}
+
+.services-card{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services-card div {
+    margin: 1rem;
+    width: fit-content;
+    padding: 1rem;
+    border: 1px dotted rgb(215, 215, 0);
+    border-radius: 10px;
+}
+
+.services-card div h2{
+    margin: 10px;
+    color: rgb(215, 215, 0);
+}
+

@@ -17,11 +17,12 @@ export default function NavBar() {
           <li>
             <a href="">About</a>
           </li>
+
           <li>
-            <a href="">Contact</a>
+            <a href="">Services</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="">Contact</a>
           </li>
           <li>
             <a href="">Github</a>
